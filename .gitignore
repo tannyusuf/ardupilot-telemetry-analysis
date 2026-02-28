@@ -1,0 +1,40 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# IDE - PyCharm/IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Testing & Code Quality
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Output
+output.bin
+output_summary.csv
+
+# Telemetry Logs
+*.tlog
